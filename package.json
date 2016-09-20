@@ -1,8 +1,8 @@
 {
-  "name": "STN_WebService_Documentation",
+  "name": "BLTServicesDocumentation",
   "version": "1.2.3",
-  "homepage": "https://github.com/USGS-WiM/STNWebserviceDocumentation",
-  "repository": "https://github.com/USGS-WiM/STNWebserviceDocumentation",
+  "homepage": "https://github.com/USGS-WiM/BLTServicesDocumentation",
+  "repository": "https://github.com/USGS-WiM/BLTServicesDocumentation",
   "authors": [
     "Jeremy Newson <jknewson@usgs.gov>",
     "Martyn Smith <marsmith@usgs.gov>",
