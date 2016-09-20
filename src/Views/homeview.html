@@ -2,19 +2,19 @@
     <div class="scrollable-content">
         <div class="home-view">
             <div ng-hide="vm.selectedResource" class="page-header">
-                <h2>STN Web Services</h2>
+                <h2>BLT Web Services</h2>
             </div>
             <div ng-hide="vm.selectedResource" class="well">
                 <h3>Introduction</h3>
                 <p>
-                    The USGS Short-Term Network (STN) System includes data serices that power the <a href="{{vm.applicationURL}}" target="_blank">web data entry application</a>, public and internal mapping
-                    application and numerous other applications. The services can be directly accessed using the STN Service API documented here, or consumed by a custom client application using HTTP protocols.
-                    If you have any questions about the services or need additional services, please contact Marie Peppler (mpeppler@usgs.gov).
+                    The BLT System includes data serices that power the <a href="{{vm.applicationURL}}" target="_blank">web data entry application</a>, public, and internal mapping
+                    application. The services can be directly accessed using the BLT Service API documented here, or consumed by a custom client application using HTTP protocols.
+                    If you have any questions about the services or need additional services, please contact ....
                 </p>
 
                 <p>
-                    The STN Web Services API performs multiple high level procedures which include; database queries, geospatial queries and service requests in order to
-                    compile and create simple objects that can be consumed by custom client applications. As documented by this page, which can also serve as an URL builder, the STN Service API is built
+                    The BLT Web Services API performs multiple high level procedures which include; database queries, and service requests in order to
+                    compile and create simple objects that can be consumed by custom client applications. As documented by this page, which can also serve as an URL builder, the BLT Service API is built
                     following <a href="http://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">RESTful</a> principles to ensure scalability and predictable URLs.
                 </p>
 
@@ -59,9 +59,9 @@
                 </div>
 
                 <div ng-show="vm.selectedUri.selectedMedia">
-                    <h4>Response formats</h4>
-                    <div class="well">
-                        <select ng-init="vm.selectedUri.selectedMedia" ng-model="vm.selectedUri.selectedMedia" ng-options="item for item in vm.selectedUri.availableMedia"></select>
+                    <h4>Response format</h4>
+                    <div class="well">{{vm.selectedUri.availableMedia}}
+<!--                        <select ng-init="vm.selectedUri.selectedMedia" ng-model="vm.selectedUri.selectedMedia" ng-options="item for item in vm.selectedUri.availableMedia"></select>-->
                     </div>
                 </div>
 

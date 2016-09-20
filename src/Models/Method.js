@@ -16,8 +16,8 @@
 //08.20.2014 jkn - Created
 //Imports"
 // Interface
-var STN;
-(function (STN) {
+var BLT;
+(function (BLT) {
     var Models;
     (function (Models) {
         var Method = (function () {
@@ -27,6 +27,6 @@ var STN;
             return Method;
         })();
         Models.Method = Method; //end class
-    })(Models = STN.Models || (STN.Models = {}));
-})(STN || (STN = {})); //end module  
+    })(Models = BLT.Models || (BLT.Models = {}));
+})(BLT || (BLT = {})); //end module  
 //# sourceMappingURL=Method.js.map

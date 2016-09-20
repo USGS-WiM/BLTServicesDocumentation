@@ -10,7 +10,7 @@
                         ng-click="vm.toggleSelected()">
                     &times;
                 </button>
-                <h4 class="modal-title">STN Web Services</h4>
+                <h4 class="modal-title">BLT Web Services</h4>
             </div>
             <div class="modal-body">
                 <div class="modal-body">
@@ -24,12 +24,12 @@
                         <div id="about" ng-if="vm.selectedTabName==='about'">
 
                             <p style="color:black;">
-                                The STN Web Service API is developed by the Wisconsin Internet Mapping (WiM) group in collaboration with the Office of Surface Water and the USGS Water Science Centers.
+                                The BLT Web Service API is developed by the Wisconsin Internet Mapping (WiM) group in collaboration with EPA.
                             </p>
 
                         </div>
                         <div id="disclaimer" ng-show="vm.selectedTabName==='disclaimer'" class="text-danger">
-                            <h3>Limitations</h3>
+                            <!--<h3>Limitations</h3>
                             <p>
                                 Data are provisional and are subject to revision until thoroughly reviewed and approved.
                             </p>
@@ -47,7 +47,7 @@
                             </p>
                             <p>
                                 Information concerning the accuracy and appropriate uses of these data or concerning other hydrologic data may be obtained from the USGS.
-                            </p>                                                        
+                            </p>-->                                                        
                         </div>
                         <div id="contact" ng-show="vm.selectedTabName === 'contact'">
                             <form id="contact-form">
@@ -86,7 +86,7 @@
 
             <div class="modal-footer">
                 <p style="color:black; margin-left:35px;text-align:left">
-                    For more information about the STN Web Services API please contact <a href="http://wim.usgs.gov/" target="_blank"><img src="images/wimvectorxs.png" id="wim_logo"></a>
+                    For more information about the BLT Web Services API please contact <a href="http://wim.usgs.gov/" target="_blank"><img src="images/wimvectorxs.png" id="wim_logo"></a>
                     <!--or select the 'contact us' tab to submit a message.-->
                 </p>
                 <button ng-click="vm.toggleSelected()" class="btn btn-default">Close</button>

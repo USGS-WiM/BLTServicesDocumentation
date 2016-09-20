@@ -2,5 +2,5 @@
     'use strict';
 
     angular
-        .module('STN.Models', []);
+        .module('BLT.Models', []);
 })(); 

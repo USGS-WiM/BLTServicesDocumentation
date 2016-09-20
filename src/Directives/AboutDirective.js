@@ -20,8 +20,8 @@
 //Comments
 //04.15.2015 jkn - Created
 //Import
-var STN;
-(function (STN) {
+var BLT;
+(function (BLT) {
     var Directives;
     (function (Directives) {
         'use string';
@@ -68,7 +68,7 @@ var STN;
             }; //end link
             return wimAbout;
         })(); //end UrlDirective
-        angular.module('STN.Directives', []).directive('about', wimAbout.instance);
-    })(Directives = STN.Directives || (STN.Directives = {}));
-})(STN || (STN = {})); //end module 
+        angular.module('BLT.Directives', []).directive('about', wimAbout.instance);
+    })(Directives = BLT.Directives || (BLT.Directives = {}));
+})(BLT || (BLT = {})); //end module 
 //# sourceMappingURL=AboutDirective.js.map

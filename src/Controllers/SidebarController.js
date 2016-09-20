@@ -15,8 +15,8 @@
 //Comments
 //04.14.2015 jkn - Created
 //Imports"
-var STN;
-(function (STN) {
+var BLT;
+(function (BLT) {
     var Controllers;
     (function (Controllers) {
         'use strinct';
@@ -49,10 +49,10 @@ var STN;
             };
             //Constructor
             //-+-+-+-+-+-+-+-+-+-+-+-
-            SidebarController.$inject = ['$scope', 'STN.Services.ResourceService'];
+            SidebarController.$inject = ['$scope', 'BLT.Services.ResourceService'];
             return SidebarController;
         })(); //end class
-        angular.module('STN.Controllers').controller('STN.Controllers.SidebarController', SidebarController);
-    })(Controllers = STN.Controllers || (STN.Controllers = {}));
-})(STN || (STN = {})); //end module
+        angular.module('BLT.Controllers').controller('BLT.Controllers.SidebarController', SidebarController);
+    })(Controllers = BLT.Controllers || (BLT.Controllers = {}));
+})(BLT || (BLT = {})); //end module
 //# sourceMappingURL=SidebarController.js.map

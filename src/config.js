@@ -1,7 +1,7 @@
 //http://lgorithms.blogspot.com/2013/07/angularui-router-as-infrastructure-of.html
 //http://www.funnyant.com/angularjs-ui-router/
-var STN;
-(function (STN) {
+var BLT;
+(function (BLT) {
     'use strinct';
     var config = (function () {
         function config($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -16,15 +16,15 @@ var STN;
                 views: {
                     'main': {
                         templateUrl: "Views/homeview.html",
-                        controller: "STN.Controllers.MainController"
+                        controller: "BLT.Controllers.MainController"
                     },
                     'sidebar': {
                         templateUrl: "Views/sidebarview.html",
-                        controller: "STN.Controllers.SidebarController"
+                        controller: "BLT.Controllers.SidebarController"
                     },
                     'navbar': {
                         templateUrl: "Views/navigationview.html",
-                        controller: "STN.Controllers.NavbarController"
+                        controller: "BLT.Controllers.NavbarController"
                     }
                 }
             }); //end main state 
@@ -34,16 +34,16 @@ var STN;
         config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
         return config;
     })(); //end class
-    angular.module('STN', [
+    angular.module('BLT', [
         "ui.router",
         "mobile-angular-ui",
         'leaflet-directive',
-        "STN.Services",
-        "STN.Controllers",
+        "BLT.Services",
+        "BLT.Controllers",
         'jsonFormatter',
         'WiM.Services',
         'WiM.Event',
-        'STN.Directives'
+        'BLT.Directives'
     ]).config(config);
-})(STN || (STN = {})); //end module 
+})(BLT || (BLT = {})); //end module 
 //# sourceMappingURL=config.js.map

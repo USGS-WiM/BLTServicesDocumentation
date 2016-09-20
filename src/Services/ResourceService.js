@@ -23,8 +23,8 @@ var __extends = this.__extends || function (d, b) {
 //Comments
 //04.15.2015 jkn - Created
 //Import
-var STN;
-(function (STN) {
+var BLT;
+(function (BLT) {
     var Services;
     (function (Services) {
         'use strict';
@@ -116,7 +116,7 @@ var STN;
         function factory($http, $q) {
             return new ResourceService($http, $q);
         }
-        angular.module('STN.Services').factory('STN.Services.ResourceService', factory);
-    })(Services = STN.Services || (STN.Services = {}));
-})(STN || (STN = {})); //end module
+        angular.module('BLT.Services').factory('BLT.Services.ResourceService', factory);
+    })(Services = BLT.Services || (BLT.Services = {}));
+})(BLT || (BLT = {})); //end module
 //# sourceMappingURL=ResourceService.js.map

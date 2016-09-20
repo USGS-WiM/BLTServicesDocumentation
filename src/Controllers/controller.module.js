@@ -1,5 +1,5 @@
 (function () {
     'use strict';
-    angular.module('STN.Controllers', []);
+    angular.module('BLT.Controllers', []);
 })();
 //# sourceMappingURL=controller.module.js.map

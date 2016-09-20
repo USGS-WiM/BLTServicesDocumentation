@@ -22,7 +22,7 @@
 
 //Imports"
 // Interface
-module STN.Models {
+module BLT.Models {
     export interface IMethod {
         type: string;
         uriList: Array<Models.IURI>;
