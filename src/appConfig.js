@@ -1,7 +1,7 @@
 ﻿var configuration = {}
 configuration.baseurls =
 {
-    'services': 'https://bltdev.wim.usgs.gov/BLTServices',
+    'services': 'https://blt.wim.usgs.gov/BLTServices',
     //'services': 'https://blt.wim.usgs.gov/BLTServices',
    // 'services': 'http://localhost/BLTServices',
     'application': 'https://blt.wim.usgs.gov/BLTWeb'
